@@ -3,10 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"math/rand"
 	"os"
 	"strings"
-	"time"
 
 	"interview-cli/internal/config"
 	"interview-cli/internal/repository"

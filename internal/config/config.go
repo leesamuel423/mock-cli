@@ -15,25 +15,19 @@ type Config struct {
 // load config from disk; if no config, create default config
 // returns pointer to config and error
 func LoadConfig() (*Config, error) {
-	// get user's home directory
-	homeDir, err := os.UserHomeDir()
+	// Get the executable directory
+	execPath, err := os.Executable()
 	if err != nil {
-		return nil, fmt.Errorf("failed to get home directory: %w", err)
+		return nil, fmt.Errorf("failed to get executable path: %w", err)
 	}
+	execDir := filepath.Dir(execPath)
 
-	// construct path to app config directory
-	configDir := filepath.Join(homeDir, ".interview-cli")
-
-	// create config directory if doesn't exist
-	if err := os.MkdirAll(configDir, 0755); err != nil {
-		return nil, fmt.Errorf("failed to create config directory: %w", err)
-	}
-
-	configPath := filepath.Join(configDir, "config.json")
+	// Use executable directory for config
+	configPath := filepath.Join(execDir, "config.json")
 
 	// init default config structure
 	config := &Config{
-		QuestionsFile: filepath.Join(configDir, "questions.json"),
+		QuestionsFile: filepath.Join(execDir, "questions.json"),
 	}
 
 	// check if config file exists
