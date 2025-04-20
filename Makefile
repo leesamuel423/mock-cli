@@ -1,4 +1,4 @@
-.PHONY: help build run clean test lint vet fmt practice list add deps
+.PHONY: help build run clean lint vet fmt practice list add deps
 
 BINARY_NAME=interview-cli
 BUILD_DIR=.
@@ -18,8 +18,6 @@ run: build ## Build and run the binary
 clean: ## Remove the binary
 	rm -f $(BINARY_NAME)
 
-test: ## Run tests
-	go test ./...
 
 lint: ## Run linter and vet
 	go vet ./...
@@ -32,8 +30,8 @@ fmt: ## Format code
 	go fmt ./...
 
 # Run with specific commands
-practice: build ## Start practice session
-	./$(BINARY_NAME) -practice
+practice: build ## Start practice session (N=<num> CATEGORY=<category> TAGS=<tags>)
+	./$(BINARY_NAME) -practice $(if $(N),-n $(N),) $(if $(CATEGORY),-category $(CATEGORY),) $(if $(TAGS),-tags $(TAGS),)
 
 list: build ## List all questions
 	./$(BINARY_NAME) -list
