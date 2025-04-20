@@ -1,0 +1,693 @@
+[
+  {
+    "text": "Tell me about a time you had to make a quick decision about a technical architecture choice that would have a significant impact on the project.",
+    "category": "behavioural",
+    "tags": [
+      "bias for action",
+      "deliver results",
+      "think big"
+    ]
+  },
+  {
+    "text": "Describe a time when you went above and beyond to improve the user experience for your software product. What specific technical improvements did you implement?",
+    "category": "behavioural",
+    "tags": [
+      "customer obsession",
+      "ownership",
+      "deliver results"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you had to make a difficult decision between performance and usability in your application.",
+    "category": "behavioural",
+    "tags": [
+      "customer obsession",
+      "bias for action",
+      "ownership"
+    ]
+  },
+  {
+    "text": "How have you incorporated user feedback to improve your code or software architecture?",
+    "category": "behavioural",
+    "tags": [
+      "customer obsession",
+      "learn and be curious",
+      "dive deep"
+    ]
+  },
+  {
+    "text": "Describe a situation where you identified and fixed a critical bug that wasn't assigned to you.",
+    "category": "behavioural",
+    "tags": [
+      "ownership",
+      "bias for action",
+      "think big"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you identified technical debt and took action to address it without being asked.",
+    "category": "behavioural",
+    "tags": [
+      "ownership",
+      "bias for action",
+      "invent and simplify"
+    ]
+  },
+  {
+    "text": "Give an example of a software project you led from inception to deployment. What technical challenges did you face and how did you ensure its success?",
+    "category": "behavioural",
+    "tags": [
+      "ownership",
+      "deliver results",
+      "insist on highest standards"
+    ]
+  },
+  {
+    "text": "Describe a time when you found a simple solution to a complex coding problem.",
+    "category": "behavioural",
+    "tags": [
+      "invent and simplify",
+      "dive deep",
+      "think big"
+    ]
+  },
+  {
+    "text": "Tell me about a development process you improved. How did you identify the bottleneck and what was the outcome?",
+    "category": "behavioural",
+    "tags": [
+      "invent and simplify",
+      "ownership",
+      "deliver results"
+    ]
+  },
+  {
+    "text": "Share an example of when you developed a new algorithm or feature that had a positive impact on your product.",
+    "category": "behavioural",
+    "tags": [
+      "invent and simplify",
+      "think big",
+      "learn and be curious"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you had to make an architectural decision without complete requirements. How did you approach this?",
+    "category": "behavioural",
+    "tags": [
+      "are right a lot",
+      "bias for action",
+      "dive deep"
+    ]
+  },
+  {
+    "text": "Describe a situation where you had to change your approach to a technical solution based on code review feedback.",
+    "category": "behavioural",
+    "tags": [
+      "are right a lot",
+      "learn and be curious",
+      "disagree and commit"
+    ]
+  },
+  {
+    "text": "Give an example of a time when you used metrics or analytics to make a technical decision. What was the outcome?",
+    "category": "behavioural",
+    "tags": [
+      "are right a lot",
+      "dive deep",
+      "deliver results"
+    ]
+  },
+  {
+    "text": "Describe a time when you had to learn a new programming language or framework to solve a problem.",
+    "category": "behavioural",
+    "tags": [
+      "learn and be curious",
+      "dive deep",
+      "invent and simplify"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you had to quickly understand a complex codebase to fix a critical issue.",
+    "category": "behavioural",
+    "tags": [
+      "learn and be curious",
+      "deliver results",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Share an example of how your technical curiosity led to an innovation or improvement in your team's codebase.",
+    "category": "behavioural",
+    "tags": [
+      "learn and be curious",
+      "invent and simplify",
+      "think big"
+    ]
+  },
+  {
+    "text": "Describe how you've helped a junior developer improve their coding skills or technical knowledge.",
+    "category": "behavioural",
+    "tags": [
+      "hire and develop the best",
+      "earn trust",
+      "learn and be curious"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you recognized technical talent in someone and how you mentored them.",
+    "category": "behavioural",
+    "tags": [
+      "hire and develop the best",
+      "earn trust",
+      "think big"
+    ]
+  },
+  {
+    "text": "Give an example of how you've contributed to creating a positive code review culture.",
+    "category": "behavioural",
+    "tags": [
+      "hire and develop the best",
+      "earn trust",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Describe a situation where you weren't satisfied with the code quality or test coverage. What did you do about it?",
+    "category": "behavioural",
+    "tags": [
+      "insist on highest standards",
+      "ownership",
+      "think big"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you improved the performance or security of an application.",
+    "category": "behavioural",
+    "tags": [
+      "insist on highest standards",
+      "invent and simplify",
+      "deliver results"
+    ]
+  },
+  {
+    "text": "Share an example of when you introduced better coding standards or development practices to your team.",
+    "category": "behavioural",
+    "tags": [
+      "insist on highest standards",
+      "think big",
+      "earn trust"
+    ]
+  },
+  {
+    "text": "Describe a time when you proposed a major refactoring or technology transition that others initially resisted.",
+    "category": "behavioural",
+    "tags": [
+      "think big",
+      "have backbone",
+      "invent and simplify"
+    ]
+  },
+  {
+    "text": "Tell me about a situation where you challenged the conventional technical approach on your team.",
+    "category": "behavioural",
+    "tags": [
+      "think big",
+      "have backbone",
+      "learn and be curious"
+    ]
+  },
+  {
+    "text": "Give an example of how you've inspired your team to adopt a new technology or methodology.",
+    "category": "behavioural",
+    "tags": [
+      "think big",
+      "earn trust",
+      "learn and be curious"
+    ]
+  },
+  {
+    "text": "Describe a time when you had to fix a production issue quickly with limited debugging information.",
+    "category": "behavioural",
+    "tags": [
+      "bias for action",
+      "are right a lot",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Tell me about a situation where you took a calculated technical risk to achieve a deadline or goal.",
+    "category": "behavioural",
+    "tags": [
+      "bias for action",
+      "think big",
+      "deliver results"
+    ]
+  },
+  {
+    "text": "Share an example of when you deployed code despite uncertainty about potential edge cases.",
+    "category": "behavioural",
+    "tags": [
+      "bias for action",
+      "are right a lot",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Describe how you've optimized your application to accomplish more with less server resources.",
+    "category": "behavioural",
+    "tags": [
+      "frugality",
+      "invent and simplify",
+      "deliver results"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you delivered a feature without requiring additional dependencies or infrastructure.",
+    "category": "behavioural",
+    "tags": [
+      "frugality",
+      "invent and simplify",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Give an example of how you've improved CI/CD pipelines to save development time or computing resources.",
+    "category": "behavioural",
+    "tags": [
+      "frugality",
+      "invent and simplify",
+      "insist on highest standards"
+    ]
+  },
+  {
+    "text": "Describe a time when you had to rebuild trust with a team member after a technical disagreement.",
+    "category": "behavioural",
+    "tags": [
+      "earn trust",
+      "customer obsession",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Tell me about a situation where you admitted a coding mistake and what you learned from it.",
+    "category": "behavioural",
+    "tags": [
+      "earn trust",
+      "learn and be curious",
+      "have backbone"
+    ]
+  },
+  {
+    "text": "Share an example of how you've maintained code integrity during pressure to cut corners.",
+    "category": "behavioural",
+    "tags": [
+      "earn trust",
+      "have backbone",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Describe a complex bug you solved by diving deep into the system architecture.",
+    "category": "behavioural",
+    "tags": [
+      "dive deep",
+      "are right a lot",
+      "insist on highest standards"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you discovered a critical issue by questioning the assumptions in the codebase.",
+    "category": "behavioural",
+    "tags": [
+      "dive deep",
+      "are right a lot",
+      "learn and be curious"
+    ]
+  },
+  {
+    "text": "Give an example of how your attention to detail in code reviews prevented or solved a problem.",
+    "category": "behavioural",
+    "tags": [
+      "dive deep",
+      "ownership",
+      "insist on highest standards"
+    ]
+  },
+  {
+    "text": "Describe a time when you disagreed with your tech lead or architect but committed to the decision once it was made.",
+    "category": "behavioural",
+    "tags": [
+      "have backbone",
+      "disagree and commit",
+      "earn trust"
+    ]
+  },
+  {
+    "text": "Tell me about a situation where you respectfully challenged a senior engineer's design decision.",
+    "category": "behavioural",
+    "tags": [
+      "have backbone",
+      "are right a lot",
+      "earn trust"
+    ]
+  },
+  {
+    "text": "Share an example of when you had to make an unpopular technical decision that you knew was right.",
+    "category": "behavioural",
+    "tags": [
+      "have backbone",
+      "ownership",
+      "are right a lot"
+    ]
+  },
+  {
+    "text": "Describe a time when you faced significant technical obstacles to complete a project but still delivered.",
+    "category": "behavioural",
+    "tags": [
+      "deliver results",
+      "ownership",
+      "have backbone"
+    ]
+  },
+  {
+    "text": "Tell me about a situation where you had to balance refactoring code and delivering new features to meet a deadline.",
+    "category": "behavioural",
+    "tags": [
+      "deliver results",
+      "bias for action",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Give an example of a time when you delivered a software project under tight time constraints or pressure.",
+    "category": "behavioural",
+    "tags": [
+      "deliver results",
+      "bias for action",
+      "insist on highest standards"
+    ]
+  },
+  {
+    "text": "Describe how you've contributed to creating an inclusive development team environment.",
+    "category": "behavioural",
+    "tags": [
+      "earths best employer",
+      "hire and develop the best",
+      "earn trust"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you supported a colleague who was struggling with a technical problem.",
+    "category": "behavioural",
+    "tags": [
+      "earths best employer",
+      "earn trust",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Share an example of how you've helped make your technical team more diverse or inclusive.",
+    "category": "behavioural",
+    "tags": [
+      "earths best employer",
+      "hire and develop the best",
+      "think big"
+    ]
+  },
+  {
+    "text": "Describe a situation where you considered the broader impact of your technical decisions on other teams or systems.",
+    "category": "behavioural",
+    "tags": [
+      "broad responsibility",
+      "think big",
+      "ownership"
+    ]
+  },
+  {
+    "text": "Tell me about a time when you advocated for more accessible or ethical features in your software.",
+    "category": "behavioural",
+    "tags": [
+      "broad responsibility",
+      "have backbone",
+      "think big"
+    ]
+  },
+  {
+    "text": "Give an example of how you've balanced technical excellence with environmental or social responsibility in your work.",
+    "category": "behavioural",
+    "tags": [
+      "broad responsibility",
+      "are right a lot",
+      "customer obsession"
+    ]
+  },
+  {
+    "text": "Explain how JavaScript closures work and provide an example of when you would use them.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "What is the difference between `let`, `const`, and `var` in JavaScript? When would you use each?",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "Explain JavaScript's event loop and how asynchronous operations work under the hood.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "What are JavaScript Promises? Explain how you would handle multiple asynchronous operations.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "What is the difference between `==` and `===` in JavaScript? Provide examples of unexpected behaviors.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "Explain prototypal inheritance in JavaScript and how it differs from class-based inheritance.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "Describe the differences between arrow functions and regular functions in JavaScript.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "Explain the concept of hoisting in JavaScript and how it affects variables and functions.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "How would you optimize the performance of a JavaScript application? Give specific examples.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "Explain how you would implement deep cloning of objects in JavaScript.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "text": "What are React Hooks? Explain how and why you would use useState and useEffect.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "Explain the React component lifecycle and how it changes with Hooks.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "How would you optimize performance in a React application?",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "Explain the concept of virtual DOM in React and why it's important.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "Describe the difference between state and props in React and when to use each.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "How would you manage global state in a React application? Compare different approaches.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "Explain CSS specificity and the cascade. How does it affect styling in your applications?",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "Describe how you would implement responsive design without using a framework like Bootstrap.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "How would you debug a frontend performance issue? What tools would you use?",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "Explain how you would build an accessible form with client-side validation.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "text": "Describe how you would implement authentication and authorization in a Node.js application.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "Explain the event-driven architecture of Node.js and its advantages.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "How would you handle database transactions in a Node.js application?",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "Describe how you would implement rate limiting in a Node.js API.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "How would you handle error handling and logging in a Node.js application?",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "Explain the purpose of middleware in Express.js and provide examples of when you would create custom middleware.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "How would you optimize the performance of a Node.js application?",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "Describe how you would implement real-time features (like a chat application) using Node.js.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "How would you design a RESTful API with Node.js? What best practices would you follow?",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "text": "Explain how you would implement data caching in a Node.js application.",
+    "category": "technical",
+    "tags": [
+      "javascript",
+      "backend"
+    ]
+  }
+]
