@@ -19,7 +19,7 @@ type Question struct {
 }
 
 // checks if category is valid
-func isValidCategory(category string) bool {
+func IsValidCategory(category string) bool {
 	return slices.Contains(ValidCategories, category)
 }
 
