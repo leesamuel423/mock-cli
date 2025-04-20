@@ -52,7 +52,7 @@ func (r *QuestionRepository) SaveQuestions(questions []models.Question) error {
 
 // prompt usere to input new question w/ category + tags
 // add question to repo and saves updated list
-func (r *QuestionRepository) AddQuestions() error {
+func (r *QuestionRepository) AddQuestion() error {
 	// load existing questions, continue if file doesn't exist yet
 	questions, err := r.LoadQuestions()
 	if err != nil && !os.IsNotExist(err) {
