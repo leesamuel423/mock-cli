@@ -80,6 +80,37 @@ make practice N=3 CATEGORY=technical TAGS="algorithms,data-structures"
 | `make practice` | Start practice session |
 | `make list` | List all questions |
 | `make add` | Add a new question |
+| `make test` | Run all tests |
+| `make test-short` | Run only unit tests (skip integration tests) |
+| `make test-verbose` | Run tests with verbose output |
+| `make test-coverage` | Run tests with coverage report |
+
+## Testing
+
+The project includes a comprehensive test suite located in the `tests/` directory. The tests cover the core functionality of the application:
+
+- Model validations and utility functions
+- Repository operations (loading, saving, filtering questions)
+- Session functionality
+- Basic CLI commands
+
+### Running Tests
+
+```bash
+# Run all tests
+make test
+
+# Run only unit tests (skip integration tests)
+make test-short
+
+# Run tests with verbose output
+make test-verbose
+
+# Generate test coverage report
+make test-coverage
+```
+
+The test coverage report will be generated in `coverage.html` and can be viewed in a web browser.
 
 ## Data Storage
 

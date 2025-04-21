@@ -1,4 +1,4 @@
-.PHONY: help build run clean lint vet fmt practice list add deps
+.PHONY: help build run clean lint vet fmt practice list add deps test test-short test-verbose test-coverage
 
 BINARY_NAME=interview-cli
 BUILD_DIR=.
@@ -41,5 +41,19 @@ add: build ## Add a new question
 
 deps: ## Install dependencies
 	go get -u golang.org/x/lint/golint
+
+test: ## Run all tests
+	go test -v ./tests/...
+
+test-short: ## Run only unit tests (skip integration tests)
+	go test -v -short ./tests/...
+
+test-verbose: ## Run tests with verbose output
+	go test -v -count=1 ./tests/...
+
+test-coverage: ## Run tests with coverage report
+	go test -coverprofile=coverage.out ./tests/...
+	go tool cover -html=coverage.out -o coverage.html
+	@echo "Coverage report generated at coverage.html"
 
 .DEFAULT_GOAL := help
